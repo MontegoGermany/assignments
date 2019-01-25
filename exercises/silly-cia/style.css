@@ -1,0 +1,43 @@
+/* 
+1. Make the main headline dark green.
+2. Use the font family "Georgia" for the main headline and the sub-headline.
+3. Center the text of the main headline and the sub-headline.
+4. Make the paragraphs have a line height of 25 pixels.
+5. Remove the underline from the links.
+6. Make the "You might also like" label all uppercase.
+7. Bonus: Make an underline appear when you hover over a link.
+8. Bonus: Make the image 'float' to the left of the body content. */
+h1 {
+    color: darkgreen;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center          
+
+}
+p {
+    line-height: 25px;
+    padding-right: 25px;
+    
+
+}
+a:link {
+    text-decoration: none;
+}
+#quote {
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    float: left;
+    clear: left;
+    padding: 10px;
+    padding-left: 20px;
+}
+/* CSS is for the styling of your webpage...
+There are properties for */
