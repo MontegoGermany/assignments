@@ -1,0 +1,42 @@
+
+h1 {
+    text-align: center;
+
+}
+h2 {
+    text-align: center;
+
+}
+h3 {
+
+}
+h4 {
+    text-align: center;
+}
+div {
+    display: inline-block;
+    width: 31%;
+    vertical-align: top;
+    padding: 0 5px 0 5px;
+}
+p {
+}
+
+img {
+    height: 200px;
+    width: 100%;
+
+}
+.wrapper {
+    width: 95%;
+    margin: auto;
+    display: block;
+}
+.header2 {
+    border-bottom: 1px black solid;
+}
+.author {
+    display: block;
+    margin: auto;
+
+}
