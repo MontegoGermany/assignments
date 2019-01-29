@@ -1,47 +1,68 @@
+/*
+Create a model to represent the database of a new social media platform you're creating. It can be about whatever you want, but it needs the following:
 
-// var greenGiant = 1 
-
-
-// function divide(){
-    
-//     for(var i = 0)
-    
-//     return 1600 / 8
-// }
-
-// var lucid = divide();
-
-// console.log(lucid);
+At least 3 nested levels of data (including objects and arrays)
+At least 1 method
+Span across at least 50 lines of code. (No empty lines)
+*/
 
 
-// var eventsAtWork = ["work", "pretend to work", "party", "work", "meeting", "party", "daily grind", "work", "party"]
+var racer1 = {
+    racerName: "TegoTooFast",
+    age: 45,
+    cars: [
+        {
+            carType: "supercar",
+            make: "Nissan",
+            model: "GT-R",
+            year: "2009",
+        }
+    ],
+    racaerTeam: [
+        {
+            racerName: "WayRider",
+            age: 45,
+            car: [
+                {
+                    carType: "muscle-car",
+                    make: "Mopar",
+                    model: "Plymouth Barracuda",
+                    year: "1972",
+                }
+            ]
 
-// for( var i = 0; i < eventsAtWork.length; i ++) {
+        },
+        {
+            racerName: "GemmaTheGoddess",
+            age: 22,
+            car: [
+                {
+                    carType: "hypercar",
+                    make: "Ferarri",
+                    model: "XK-12",
+                    year: "2020",
+                }
+            ]
 
-//     if(eventsAtWork[i] === "party"){
-//         console.log("hooray")
+        },
+        {
+            racerName: "Mk-16",
+            age: "XX",
+            car: [
+                {
+                    carType: "Unknown",
+                    make: "undiscovered",
+                    model: "alien",
+                    year: "2250",
+                }
+            ]
 
-//     }
-    
-   
-// }
+        }
+    ]
 
+}
 
-
-
-var booleans = [true, true, false, true, false, false, false]
- 
-count = 0 
-
-for(i = 0; i < booleans.length; i ++){
-    
-    if(booleans[i] === true){
-
-        count++
-
-    }
-
-
-    
-}    
-console.log(count)
+racer1.racaerTeam[0].extra = {son:"KnightRider", carLevel:10}
+console.log(racer1.racaerTeam[0])
+racer1.racaerTeam[2].car.push({carLevel: NaN, carOrigin: "Unknown"})
+console.log(racer1.racaerTeam[2].car)
