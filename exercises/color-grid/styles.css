@@ -1,8 +1,10 @@
 * {
     box-sizing: border-box; 
-    width: 100%;
+    width: 80%;
     font-size: 0;
-    border: white 5px solid;
+    border: white 2px solid;
+    display: inline-block;
+    margin: auto;
 }
     .box-1 {
         background-color: #F5C6D6;
@@ -12,25 +14,25 @@
     }
     .box-2 {
         background-color:#EE2E84;
-        height: 60px;
-        width: 24%;
+        height: 150px;
+        width: 25%;
         display: inline-block;
     }
     .box-3 {
         background-color: #85CFD8;
-        height: 60px;
+        height: 150px;
         width: 50%;
         display: inline-block;
     }
     .box-4 {
         background-color: #8DC63F;
-        height: 60px;
-        width: 50% ;
+        height: 150px;
+        width: 70% ; 
         
     }
     .box-5 {
         background-color: #E76E34;
-        height: 60px;
-        width: 50%;
-        display: inline-block;
+        height: 150px;
+        width: 30%;
+        
     }       
