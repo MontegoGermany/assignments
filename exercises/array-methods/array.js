@@ -48,36 +48,39 @@ If you've done everything correctly, the last step should print the following st
 var fruit = ["banana", "apple", "orange", "watermelon"];
 var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
 // console.log(fruit + vegetables)
-
-function wrapper(){
-
-
     
     //1
-    console.log(vegetables.pop())
+    vegetables.pop()
+    console.log("1", vegetables)
     //2
-    // console.log(fruit.shift())
-    // //3
-    // console.log(fruit.indexOf("orange"))
-    // //4
-    // console.log(fruit.push(fruit.indexOf("orange")))
-    // //console.log(fruit) 
-    // //5
-    // console.log(vegetables.length)
-    // //6
-    // console.log(vegetables.push(vegetables.length))
-    // //7
-    // console.log(food = [fruit + "," + vegetables])
-    //8
-    // console.log(food.splice(4,1))
+    fruit.shift()
+    console.log("2", fruit)
+    //3
+    var orange = fruit.indexOf("orange");
+    console.log("3", orange)
+    //4
+    fruit.push(orange)
+    console.log("4", fruit) 
+    //5
+    var veggies = vegetables.length;
+    console.log("5", veggies)
+    //6
+    vegetables.push(veggies)
+    console.log("6", vegetables)
+    //  7
+    //  var food = [fruit.concat(vegetables)]
+    // console.log(food)
+    // //8
+    // food.splice(4,2);
+    // console.log(food)
+    // //9
+    // console.log(food.reverse())
+    // //10
 
-    
 
 
 
-}
 
-wrapper()
 
 
 

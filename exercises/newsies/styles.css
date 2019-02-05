@@ -40,3 +40,8 @@ img {
     margin: auto;
 
 }
+.emphasis {
+    color: red;
+    font-weight: bold;
+
+}
