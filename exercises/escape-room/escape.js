@@ -18,23 +18,32 @@
 
 var ask = require("readline-sync")
 // create conditons to ask 3 options
-ask.keyInSelect(["Put hand in hole", "Find the key", "Open the door"], "Choose Wisely...")
+// ask.keyInSelect(["Put hand in hole", "Find the key", "Open the door"], "Choose Wisely...")
 
 var isAlive = true
-var haveKey = false
+var hasKey = false
 
 while(isAlive === true){
    var index = ask.keyInSelect(["Put hand in hole", "Find the key", "Open the door"], "Choose Wisely...")
   if(index === 0){
       console.log("Wasted")
       isAlive = false
-  }else if(index === 1) {
-      
-      console.log("Search for the key!")
-  }else if (index === 2) {
-      //condition for if they have the key 
-    
-      if()
   }
+  if(index === 1) {
+     if(hasKey){
+         console.log("no key here snymore, check your pocket");
+     } else
+      console.log("Search for the key!");
+      hasKey = true;
+  }
+  if (index === 2) {
+      if(hasKey){
+          console.log("you're free");
+          break;
+      }else{
+            console.log("it's locked");
+      }
+
+    }
 
 }

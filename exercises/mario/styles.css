@@ -1,0 +1,12 @@
+body {
+    background-color: antiquewhite;
+    align-content: center;
+
+}
+
+div {
+    border-style: dashed;
+    border-width: 1mm;
+    display: block;
+}
+

@@ -52,7 +52,7 @@ var vegetables = ["carrot", "tomato", "pepper", "lettuce"];
     //1
     vegetables.pop()
     console.log("1", vegetables)
-    //2
+    // 2
     fruit.shift()
     console.log("2", fruit)
     //3
