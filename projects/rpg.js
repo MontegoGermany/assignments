@@ -25,6 +25,8 @@ function Enemy(){
 var playerName = introName;
 var enemies = ["fear", "thinking", "anxiety"] 
 
+
+
 // greet player
 var introName = readline.question("Hello! I am Tron. What is your name? ")
 
@@ -37,4 +39,11 @@ var introName = readline.question("Hello! I am Tron. What is your name? ")
 
  // create function for action of walking & conditions for options of [w],[q],[p]
 
+ if(){}
+
+ // create if statements/booleans/conditiions for the keys created in the walkingSequence
  
+ 
+ 
+ 
+ // create conditions for player health & encounter
