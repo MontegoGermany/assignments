@@ -7,13 +7,18 @@ axios.get("https://api.vschool.io/montego/todo").then(function(response){
           
             if(response.data.completed === true){
             
-            document.getElementById("axios").innerHTML += response.data[i].title.strike()
-        }else{
-            document.getElementById("axios").innerHTML += response.data[i].title + " "
-
-          }
+            document.getElementById("axios").innerHTML += response.data[i].title 
+            var title = function(title){
+                response.data[i].title.strike()
+            }
+            }else{
+                document.getElementById("axios").innerHTML += response.data[i].title + "<br>"
+                
+            }
 
         console.log(response.data)
     }
+
+
   
 })

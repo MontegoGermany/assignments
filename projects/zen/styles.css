@@ -1,0 +1,13 @@
+/* @media (min-width: 1130px){
+    .grid{
+        grid-template-columns: 200px
+    }
+    .left{
+        grid-column: left 1/2 // start at column line 1 of column borders and allow content to spread to line 2
+    }
+    .right{
+        grid-column: right 2/3
+    }
+
+    // header is divided into 2fr then 1fr for content on the right take up a smaller space in grid row of header
+} */

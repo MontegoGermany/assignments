@@ -1,0 +1,16 @@
+.todo {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
+.todo > img {
+    width: 30%;
+}
+
+#todos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
