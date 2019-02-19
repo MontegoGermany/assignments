@@ -1,3 +1,32 @@
+.body{
+    display: grid;
+    grid-template-columns: auto;
+   text-align: left;
+
+    
+}
+div{
+    border: 2px solid black;
+}
+.title{
+    background-image: url("http://www.csszengarden.com/214/huntington.jpg") ;
+    grid-column: 1 / 2;
+    height: 200px
+}
+#headerTop{
+    background-image: url("gridlines-opaque.png");
+
+}
+
+div > .header{
+    border: 2px solid red;
+    /* text-align: left; */
+
+
+}
+
+
+
 /* @media (min-width: 1130px){
     .grid{
         grid-template-columns: 200px
