@@ -11,7 +11,8 @@ div{
 .title{
     background-image: url("http://www.csszengarden.com/214/huntington.jpg") ;
     grid-column: 1 / 2;
-    height: 200px
+    height: 200px;
+    color: white;
 }
 #headerTop{
     background-image: url("gridlines-opaque.png");
