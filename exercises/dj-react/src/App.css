@@ -1,0 +1,36 @@
+.container {
+  margin: 100px 120px;
+}
+
+.pad-buttons {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  grid-gap: 30px;
+}
+
+.pad-button {
+  height: 40px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+}
+
+.beat-app {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 20px;
+}
+
+.beat-app div {
+  height: 200px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.black-beat-pad div {
+  background: #000;
+}
+
+#purple-beat-pad {
+  background: purple;
+}
