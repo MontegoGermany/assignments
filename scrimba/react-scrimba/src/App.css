@@ -1,0 +1,13 @@
+
+.container{
+    background: gray;
+    height: 100%;
+    width: 100%;
+    border: solid olive 5px;
+
+}
+
+.title {
+    border: olive solid;
+
+}

@@ -4,13 +4,13 @@ import React from 'react'
 
 const Practice = () => {
     return (
-        <div>
-            <h1>Montego Ramon</h1>
-            <ul> <p>I'm a dreamcahser</p>
-                <h2>Vacation Spots</h2>
-                <li>Costa Rica</li>
-                <li>California</li>
-                <li>Nevada</li>
+        <div className='container'>
+            <h1 className='title'>Montego Ramon</h1>
+            <ul> <p className='aboutMe'>I'm a dreamcahser</p>
+                <h2 className='subTitle'>Vacation Spots</h2>
+                <li className='list'>Costa Rica</li>
+                <li className='list'>California</li>
+                <li className='list'>Nevada</li>
 
             </ul>
         </div>
