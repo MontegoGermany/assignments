@@ -1,0 +1,17 @@
+body{
+    background: 
+}
+
+
+.nav {
+    border: 2px black solid;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.home{
+    border: 2px black solid;
+    margin: 100;
+    
+}
